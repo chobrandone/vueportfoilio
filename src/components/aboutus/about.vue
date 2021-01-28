@@ -5,7 +5,7 @@
         <div class="col-md-3 justify-content-center counter-wrap ftco-animate">
           <div class="block-18 d-flex">
             <div class="icon d-flex justify-content-center align-items-center">
-              <span class="flaticon-suitcase"></span>
+              <span class="fas fa-briefcase"></span>
             </div>
             <div class="text">
               <strong class="number" data-number="750">35</strong>
@@ -16,7 +16,7 @@
         <div class="col-md-3 justify-content-center counter-wrap ftco-animate">
           <div class="block-18 d-flex">
             <div class="icon d-flex justify-content-center align-items-center">
-              <span class="flaticon-loyalty"></span>
+              <span class="far fa-smile"></span>
             </div>
             <div class="text">
               <strong class="number" data-number="568">20</strong>
@@ -38,7 +38,7 @@
         <div class="col-md-3 justify-content-center counter-wrap ftco-animate">
           <div class="block-18 d-flex">
             <div class="icon d-flex justify-content-center align-items-center">
-              <span class="flaticon-calendar"></span>
+              <span class="fas fa-chart-line"></span>
             </div>
             <div class="text">
               <strong class="number" data-number="780">40</strong>

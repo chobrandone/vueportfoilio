@@ -1,181 +1,90 @@
 <template>
-  <div class="main container ">
-    <div class="row whychooseus mb-5">
-      <h1>WHY CHOOSE US</h1>
-      <p class="large">Fastest repair service with best price!</p>
-      <hr />
-    </div>
+  <section
+    class="ftco-about ftco-section ftco-no-pt ftco-no-pb"
+    id="about-section"
+  >
+    <div class="container">
+      <div class="row d-flex no-gutters">
+        <div class="col-md-6 col-lg-5 d-flex">
+          <div class="img-about img d-flex align-items-stretch">
+            <div class="overlay"></div>
+            <div
+              class="img d-flex align-self-stretch align-items-center about-img"
+            ></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-7 pl-md-4 pl-lg-5 py-5">
+          <div class="py-md-5">
+            <div class="row justify-content-start pb-3">
+              <div class="col-md-12 heading-section ftco-animate">
+                <span class="subheading">My Intro</span>
+                <h2
+                  class="mb-4"
+                  style="font-size: 34px; text-transform: capitalize"
+                >
+                  About Me
+                </h2>
+                <p>
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia. It is a paradisematic country,
+                  in which roasted parts of sentences fly into your mouth.
+                </p>
 
-    <div class="row mt-4 mb-5">
-      <div class="equiptment col-md-3 text-center">
-        <div class="center">
-          <div>
-            <div class="icon">
-              <img src="../../assets/images/i1.png" alt="#" />
-            </div>
-          </div>
-          <h4 class="theme_color">Data recovery</h4>
-          <p>Perspiciatis eos quos totam cum minima aut!</p>
-        </div>
-      </div>
-      <div class="equiptment col-md-3">
-        <div class="center">
-          <div class="center">
-            <div class="icon">
-              <img src="../../assets/images/i2.png" alt="#" />
-            </div>
-          </div>
-          <h4 class="theme_color">Computer repair</h4>
-          <p>Perspiciatis eos quos totam cum minima aut!</p>
-        </div>
-      </div>
-      <div class="equiptment col-md-3">
-        <div class="center">
-          <div class="center">
-            <div class="icon">
-              <img src="../../assets/images/i3.png" alt="#" />
-            </div>
-          </div>
-          <h4 class="theme_color">Mobile service</h4>
-          <p>Perspiciatis eos quos totam cum minima aut!</p>
-        </div>
-      </div>
-      <div class="equiptment col-md-3">
-        <div class="center">
-          <div class="center">
-            <div class="icon">
-              <img src="../../assets/images/i4.png" alt="#" />
-            </div>
-          </div>
-          <h4 class="theme_color">Network solutions</h4>
-          <p>Perspiciatis eos quos totam cum minima aut!</p>
-        </div>
-      </div>
-    </div>
-
-    <!--dropnown-->
-    <div class="row" style="margin-top: 35px">
-      <div class="col-md-8">
-        <div class="full margin_bottom_30">
-          <div class="accordion border_circle">
-            <div class="bs-example">
-              <div class="panel-group" id="accordion">
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <p class="panel-title text-left ">
-                      <i class="fa fa-chart-bar mx-3" aria-hidden="true"></i>
-                      <a
-                        data-toggle="collapse"
-                        data-parent="#accordion"
-                        href="#collapseOne"
-                      >
-                        Complete Recovery from Local & External Drive<i
-                          class="fa fa-angle-down"
-                        ></i
-                      ></a>
-                    </p>
-                  </div>
-                  <div id="collapseOne" class="panel-collapse collapse in">
-                    <div class="panel-body">
-                      <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply
-                        random text. It has roots in a piece of classical Latin
-                        literature from 45 BC, making it over 2000 years old.
-                        Richard McClintock, a Latin professor at Hampden-Sydney
-                        College in Virginia, looked up one of the more obscure
-                        Latin words, consectetur, from a Lorem Ipsum passage,
-                        and going through the cites of the word in classical
-                        literature, discovered the undoubtable source.
-                      </p>
+                <ul class="about-info mt-4 px-md-0 px-2">
+                  <li class="d-flex">
+                    <span>Name:</span> <span>Clyde Nowitzki</span>
+                  </li>
+                  <li class="d-flex">
+                    <span>Date of birth:</span> <span>January 01, 1990</span>
+                  </li>
+                  <li class="d-flex">
+                    <span>Address:</span>
+                    <span>San Francisco CA 97987 USA</span>
+                  </li>
+                  <li class="d-flex">
+                    <span>Zip code:</span> <span>1000</span>
+                  </li>
+                  <li class="d-flex">
+                    <span>Email:</span> <span>cydenowitzki@gmail.com</span>
+                  </li>
+                  <li class="d-flex">
+                    <span>Phone: </span> <span>+1-2234-5678-9-0</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-12">
+                <div class="my-interest d-lg-flex w-100">
+                  <div class="interest-wrap d-flex align-items-center">
+                    <div
+                      class="icon d-flex align-items-center justify-content-center"
+                    >
+                      <span class="flaticon-listening"></span>
                     </div>
+                    <div class="text">Music</div>
                   </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <p class="panel-title text-left">
-                      <i class="fa fa-plane mx-3"></i>
-                      <a
-                        data-toggle="collapse"
-                        data-parent="#accordion"
-                        href="#collapseTwo"
-                      >
-                        Recovery Photo, Image, Video and Audio<i
-                          class="fa fa-angle-down"
-                        ></i
-                      ></a>
-                    </p>
-                  </div>
-                  <div id="collapseTwo" class="panel-collapse collapse">
-                    <div class="panel-body">
-                      <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply
-                        random text. It has roots in a piece of classical Latin
-                        literature from 45 BC, making it over 2000 years old.
-                        Richard McClintock, a Latin professor at Hampden-Sydney
-                        College in Virginia, looked up one of the more obscure
-                        Latin words, consectetur, from a Lorem Ipsum passage,
-                        and going through the cites of the word in classical
-                        literature, discovered the undoubtable source.
-                      </p>
+                  <div class="interest-wrap d-flex align-items-center">
+                    <div
+                      class="icon d-flex align-items-center justify-content-center"
+                    >
+                      <span class="flaticon-suitcases"></span>
                     </div>
+                    <div class="text">Travel</div>
                   </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <p class="panel-title text-left">
-                      <i class="fa fa-star mx-3"></i>
-                      <a
-                        data-toggle="collapse"
-                        data-parent="#accordion"
-                        href="#collapseThree"
-                      >
-                        Mobile Phone Recovery<i class="fa fa-angle-down"></i
-                      ></a>
-                    </p>
-                  </div>
-                  <div id="collapseThree" class="panel-collapse collapse">
-                    <div class="panel-body">
-                      <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply
-                        random text. It has roots in a piece of classical Latin
-                        literature from 45 BC, making it over 2000 years old.
-                        Richard McClintock, a Latin professor at Hampden-Sydney
-                        College in Virginia, looked up one of the more obscure
-                        Latin words, consectetur, from a Lorem Ipsum passage,
-                        and going through the cites of the word in classical
-                        literature, discovered the undoubtable source.
-                      </p>
+                  <div class="interest-wrap d-flex align-items-center">
+                    <div
+                      class="icon d-flex align-items-center justify-content-center"
+                    >
+                      <span class="flaticon-video-player"></span>
                     </div>
+                    <div class="text">Movie</div>
                   </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <p class="panel-title text-left">
-                      <i class="fa fa-chart-bar mx-3" aria-hidden="true"></i>
-                      <a
-                        data-toggle="collapse"
-                        data-parent="#accordion"
-                        href="#collapseFour"
-                      >
-                        Complete Recovery from Local & External Drive<i
-                          class="fa fa-angle-down"
-                        ></i
-                      ></a>
-                    </p>
-                  </div>
-                  <div id="collapseFour" class="panel-collapse collapse in">
-                    <div class="panel-body">
-                      <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply
-                        random text. It has roots in a piece of classical Latin
-                        literature from 45 BC, making it over 2000 years old.
-                        Richard McClintock, a Latin professor at Hampden-Sydney
-                        College in Virginia, looked up one of the more obscure
-                        Latin words, consectetur, from a Lorem Ipsum passage,
-                        and going through the cites of the word in classical
-                        literature, discovered the undoubtable source.
-                      </p>
+                  <div class="interest-wrap d-flex align-items-center">
+                    <div
+                      class="icon d-flex align-items-center justify-content-center"
+                    >
+                      <span class="flaticon-football"></span>
                     </div>
+                    <div class="text">Sports</div>
                   </div>
                 </div>
               </div>
@@ -183,24 +92,11 @@
           </div>
         </div>
       </div>
-
-      <div class="col-md-4">
-        <div class="full text-left" style="margin-top: 35px;">
-          <h3 class="">Need file recovery?</h3>
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo..
-          </p>
-          <p><a class="btn main_bt main-btn" href="#">Read More</a></p>
-       
-        </div>
-      </div>
     </div>
-  </div>
+  </section>
 </template>
 <script>
+// import image from "../../assets/img/about-1.jpg"
 export default {
   name: "choose",
   data() {
@@ -209,59 +105,82 @@ export default {
 };
 </script>
 <style scoped>
-
-.main-btn{
-min-width: 170px;
-    height: 50px;
-    text-align: center;
-    line-height: 52px;
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-top: 10px;
-    color: rgb(255, 255, 255);
-    text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 3px;
-    position: relative;
-    font-family: Poppins, sans-serif;
-    border-radius: 100px;
-    padding: 0px;
-    background-color: rgb(0, 123, 255);;
- 
+.ftco-about .img-about {
+  width: 100%;
+  z-index: 0;
+  position: relative;
 }
-.main-btn:hover{
-background-color: rgb(23, 165, 233);
+.ftco-about .img-about .img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  -webkit-box-shadow: -20px 20px 69px -27px rgb(0 0 0 / 33%);
+  -moz-box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.33);
+  box-shadow: -20px 20px 69px -27px rgb(0 0 0 / 33%);
 }
-.panel {
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(228, 228, 228);
+.img,
+.blog-img,
+.user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
-  background: rgb(255, 255, 255);
-
-  padding-top: 15px;
+.ftco-about ul.about-info {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.ftco-about ul.about-info li {
+  list-style: none;
   margin-bottom: 10px;
 }
-.panel-title i {
-  color: rgb(23, 165, 233);
+.ftco-about ul.about-info li span {
+  width: calc(100% - 130px);
+  font-weight: 600;
+  color: #b1b493;
 }
-.panel-title a {
-  color: rgb(0, 0, 0);
+.ftco-about ul.about-info li span:first-child {
+  font-weight: 600;
+  color: #000000;
+  width: 130px;
 }
-.panel-title a i {
-  float: right;
-  padding-right: 10px;
+
+.ftco-about .my-interest {
+  margin-top: 30px;
 }
-.main {
-  margin-top: 20px;
+.ftco-about .my-interest .interest-wrap {
+  width: 25%;
+  border-left: 2px solid #b1b493;
+  padding-left: 10px;
 }
-.whychooseus {
-  display: block;
+@media (max-width: 1199.98px) {
+  .ftco-about .my-interest .interest-wrap {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+  }
 }
-.whychooseus hr {
-  width: 150px;
-  border: 2px solid #039ee3;
+.ftco-about .my-interest .interest-wrap .icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #b1b493;
 }
-.center img {
+.ftco-about .my-interest .interest-wrap .icon span {
+  color: #000000;
+  font-size: 18px;
+}
+.ftco-about .my-interest .interest-wrap .text {
+  font-weight: 600;
+  color: #000000;
+  padding-left: 5px;
+}
+.about-img {
+  background-image: url("../../assets/img/about-1.jpg");
+  display: flex;
+  justify-content: center;
   width: 50%;
 }
 </style>

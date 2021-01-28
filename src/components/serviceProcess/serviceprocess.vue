@@ -1,324 +1,571 @@
 <template >
-  <div>
-       <div class="section padding_layout_1 light_silver gross_layout mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="full">
-                        <div class="main_heading text_align_left">
-                            <h2 class="service">Service Process</h2>
-                            <p class="large">Easy and effective way to get your device repaired.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="full">
-                                <div class="service_blog_inner">
-                                    <div class="icon text_align_left"><img src="../../assets/images/si1.png" alt="#" /></div>
-                                    <h4 class="service-heading">Fast service</h4>
-                                    <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="full">
-                                <div class="service_blog_inner">
-                                    <div class="icon text_align_left"><img src="../../assets/images/si2.png" alt="#" /></div>
-                                    <h4 class="service-heading">Secure payments</h4>
-                                    <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="full">
-                                <div class="service_blog_inner">
-                                    <div class="icon text_align_left"><img src="../../assets/images/si3.png" alt="#" /></div>
-                                    <h4 class="service-heading">Expert team</h4>
-                                    <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="full">
-                                <div class="service_blog_inner">
-                                    <div class="icon text_align_left"><img src="../../assets/images/si4.png" alt="#" /></div>
-                                    <h4 class="service-heading">Affordable services</h4>
-                                    <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="full">
-                                <div class="service_blog_inner">
-                                    <div class="icon text_align_left"><img src="../../assets/images/si5.png" alt="#" /></div>
-                                    <h4 class="service-heading">90 Days warranty</h4>
-                                    <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="full">
-                                <div class="service_blog_inner">
-                                    <div class="icon text_align_left"><img src="../../assets/images/si6.png" alt="#" /></div>
-                                    <h4 class="service-heading">Award winning</h4>
-                                    <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <section class="ftco-section bg-light" id="skills-section">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <span class="subheading">Skills</span>
+          <h2 class="mb-4">My Skills</h2>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia
+          </p>
         </div>
+      </div>
+      <div class="row progress-circle mb-5">
+        <div class="col-lg-4 mb-4">
+          <div class="bg-white rounded-lg shadow p-4 first">
+            <h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>
+
+            <!-- Progress bar 1 -->
+            <div class="progress mx-auto" data-value="95">
+              <span class="progress-left">
+                <span class="progress-bar border-primary"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar border-primary"></span>
+              </span>
+              <div
+                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <div class="h2 font-weight-bold">
+                  95<sup class="small">%</sup>
+                </div>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- Demo info -->
+            <div class="row text-center mt-4">
+              <div class="col-6 border-right">
+                <div class="h4 font-weight-bold mb-0">28%</div>
+                <span class="small text-gray">Last week</span>
+              </div>
+              <div class="col-6">
+                <div class="h4 font-weight-bold mb-0">60%</div>
+                <span class="small text-gray">Last month</span>
+              </div>
+            </div>
+            <!-- END -->
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="bg-white rounded-lg shadow p-4">
+            <h2 class="h5 font-weight-bold text-center mb-4">HTML</h2>
+
+            <!-- Progress bar 1 -->
+            <div class="progress mx-auto" data-value="98">
+              <span class="progress-left">
+                <span class="progress-bar border-primary"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar border-primary"></span>
+              </span>
+              <div
+                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <div class="h2 font-weight-bold">
+                  98<sup class="small">%</sup>
+                </div>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- Demo info -->
+            <div class="row text-center mt-4">
+              <div class="col-6 border-right">
+                <div class="h4 font-weight-bold mb-0">28%</div>
+                <span class="small text-gray">Last week</span>
+              </div>
+              <div class="col-6">
+                <div class="h4 font-weight-bold mb-0">60%</div>
+                <span class="small text-gray">Last month</span>
+              </div>
+            </div>
+            <!-- END -->
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="bg-white rounded-lg shadow p-4">
+            <h2 class="h5 font-weight-bold text-center mb-4">jQuery</h2>
+
+            <!-- Progress bar 1 -->
+            <div class="progress mx-auto" data-value="68">
+              <span class="progress-left">
+                <span class="progress-bar border-primary"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar border-primary"></span>
+              </span>
+              <div
+                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <div class="h2 font-weight-bold">
+                  68<sup class="small">%</sup>
+                </div>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- Demo info -->
+            <div class="row text-center mt-4">
+              <div class="col-6 border-right">
+                <div class="h4 font-weight-bold mb-0">28%</div>
+                <span class="small text-gray">Last week</span>
+              </div>
+              <div class="col-6">
+                <div class="h4 font-weight-bold mb-0">60%</div>
+                <span class="small text-gray">Last month</span>
+              </div>
+            </div>
+            <!-- END -->
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="bg-white rounded-lg shadow p-4">
+            <h2 class="h5 font-weight-bold text-center mb-4">Photoshop</h2>
+
+            <!-- Progress bar 1 -->
+            <div class="progress mx-auto" data-value="92">
+              <span class="progress-left">
+                <span class="progress-bar border-primary"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar border-primary"></span>
+              </span>
+              <div
+                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <div class="h2 font-weight-bold">
+                  92<sup class="small">%</sup>
+                </div>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- Demo info -->
+            <div class="row text-center mt-4">
+              <div class="col-6 border-right">
+                <div class="h4 font-weight-bold mb-0">28%</div>
+                <span class="small text-gray">Last week</span>
+              </div>
+              <div class="col-6">
+                <div class="h4 font-weight-bold mb-0">60%</div>
+                <span class="small text-gray">Last month</span>
+              </div>
+            </div>
+            <!-- END -->
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="bg-white rounded-lg shadow p-4">
+            <h2 class="h5 font-weight-bold text-center mb-4">WordPress</h2>
+
+            <!-- Progress bar 1 -->
+            <div class="progress mx-auto" data-value="83">
+              <span class="progress-left">
+                <span class="progress-bar border-primary"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar border-primary"></span>
+              </span>
+              <div
+                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <div class="h2 font-weight-bold">
+                  83<sup class="small">%</sup>
+                </div>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- Demo info -->
+            <div class="row text-center mt-4">
+              <div class="col-6 border-right">
+                <div class="h4 font-weight-bold mb-0">28%</div>
+                <span class="small text-gray">Last week</span>
+              </div>
+              <div class="col-6">
+                <div class="h4 font-weight-bold mb-0">60%</div>
+                <span class="small text-gray">Last month</span>
+              </div>
+            </div>
+            <!-- END -->
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="bg-white rounded-lg shadow p-4">
+            <h2 class="h5 font-weight-bold text-center mb-4">SEO</h2>
+
+            <!-- Progress bar 1 -->
+            <div class="progress mx-auto" data-value="95">
+              <span class="progress-left">
+                <span class="progress-bar border-primary"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar border-primary"></span>
+              </span>
+              <div
+                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <div class="h2 font-weight-bold">
+                  95<sup class="small">%</sup>
+                </div>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- Demo info -->
+            <div class="row text-center mt-4">
+              <div class="col-6 border-right">
+                <div class="h4 font-weight-bold mb-0">28%</div>
+                <span class="small text-gray">Last week</span>
+              </div>
+              <div class="col-6">
+                <div class="h4 font-weight-bold mb-0">60%</div>
+                <span class="small text-gray">Last month</span>
+              </div>
+            </div>
+            <!-- END -->
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 </template>
 <script>
 export default {
   data() {
-    return {
-      
-    }
+    return {};
   },
-}
+};
 </script>
 <style scoped>
-.gross_layout {
-	position: relative;
+.heading-section .subheading {
+  font-size: 13px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: black;
+  color: #b1b493;
+  letter-spacing: 3px;
 }
 
-.gross_layout {
-	position: relative;
+.heading-section h2 {
+  font-size: 40px;
+  font-weight: 600;
 }
-.main_heading::after {
-  float: left;
-    content: "";
-    display: block;
-    width: 80px;
-    height: 3px;
-    margin: 0px auto 0px;
-    background: rgb(23, 165, 233);
+.heading-section h2 span {
+  font-weight: 400;
 }
-.main_heading{
-  margin-bottom: 20px;
-}
-.service .large{
-  text-align: left;
+@media (max-width: 767.98px) {
+  .heading-section h2 {
+    font-size: 28px;
+  }
 }
 
-.light_silver_fonts p,
-.light_silver_fonts h1,
-.light_silver_fonts h2,
-.light_silver_fonts h3,
-.light_silver_fonts h4,
-.light_silver_fonts h5,
-.light_silver_fonts h6,
-.light_silver_fonts ul,
-.light_silver_fonts ul li,
-.light_silver_fonts ul li a,
-.light_silver_fonts ul i,
-.light_silver_fonts .post_info i,
-.light_silver_fonts div,
-.light_silver_fonts a.read_more {
-	color: #ccc !important;
+.heading-section.heading-section-white .subheading {
+  color: rgba(255, 255, 255, 0.9) !important;
 }
 
-
-/** icon **/
-
-.iconsmind-Over-Time2::before {
-	content: "\eb2e";
+.heading-section.heading-section-white h2 {
+  color: #fff;
 }
 
-.iconsmind-Money-2::before {
-	content: "\eac6";
+.heading-section.heading-section-white p {
+  color: rgba(255, 255, 255, 0.9);
 }
 
-.iconsmind-People-onCloud::before {
-	content: "\eb52";
+.progress-circle .h4 {
+  color: #b1b493;
+  font-size: 22px;
 }
 
-.iconsmind-Wallet-2::before {
-	content: "\ede5";
+.progress-circle .small {
+  font-weight: 600;
 }
 
-.iconsmind-Shield::before {
-	content: "\ec4f";
+.progress-circle .progress {
+  width: 150px;
+  height: 150px;
+  background: none;
+  position: relative;
 }
 
-.iconsmind-Ribbon-2::before {
-	content: "\ebf5";
+.progress-circle .progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 6px solid #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-
-/** end icon **/
-
-section.background_bg_bottom {
-	background-repeat: repeat-x !important;
-	background-position: bottom center !important;
+.progress-circle .progress > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
 }
 
-.parallax_bg {
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+.progress-circle .progress .progress-left {
+  left: 0;
 }
 
-.dark_gray {
-	background-color: #111;
-	min-height: 400px;
+.progress-circle .progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 6px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
 }
 
-.dark_gray.white_fonts h2 {
-	color: #17a5e9 !important;
+.progress-circle .progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  -ms-transform-origin: center left;
+  transform-origin: center left;
+  border-color: #b1b493 !important;
 }
 
-.dark_gray.light_silver_fonts h2 {
-	color: #fff !important;
+.progress-circle .progress .progress-right {
+  right: 0;
 }
 
-.list_style_1 {
-	font-size: 14px;
-	font-weight: 500;
-	margin: 20px 0 15px;
+.progress-circle .progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  -ms-transform-origin: center right;
+  transform-origin: center right;
+  border-color: #b1b493 !important;
 }
 
-.list_style_1 i {
-	float: left;
-	margin: 3px 16px 0 0;
+.progress-circle .progress .progress-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+progress {
+  vertical-align: baseline;
 }
 
-.light_silver {
-	background: #f8f8f8;
+.progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
 }
 
-.light_silver_2 {
-	background: #f8f8f8 !important;
-}
-  
-@media (min-width: 240px) {
-
-
-
-
-.gross_layout::after {
-	position: absolute;
-	background: none;
-	width: 35%;
-	height: 100%;
-	right: 0;
-	content: "";
-	top: 0;
-	background-size: cover;
-	background-position: right;
-}
-.text_align_left{
+.progress-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
   text-align: center;
+  white-space: nowrap;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
 }
-.gross_layout::before {
-	position: absolute;
-	background: none;
-	width: 35%;
-	height: 100%;
-	right: 0;
-	content: "";
-	top: 0;
-	background-size: cover;
-	background-position: right;
-	z-index: 1;
-}
-
-.gross_layout.right_gross_layout::after {
-	position: absolute;
-	background: none;
-	width: 35%;
-	height: 100%;
-	left: 0;
-	content: "";
-	top: 0;
-	background-size: cover;
-	background-position: right;
-}
-.service_blog_inner{
-  text-align:center;
+@media (prefers-reduced-motion: reduce) {
+  .progress-bar {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
 }
 
-.gross_layout.right_gross_layout::before {
-	position: absolute;
-	background: none;
-	width: 35%;
-	height: 100%;
-	left: 0;
-	content: "";
-	top: 0;
-	background-size: cover;
-	background-position: right;
-	z-index: 1;
+.progress-bar-striped {
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 1rem 1rem;
 }
 
-
+.progress-bar-animated {
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  animation: progress-bar-stripes 1s linear infinite;
 }
-  
-@media (min-width: 768px) {
-
-.gross_layout::after {
-	position: absolute;
-	background: url('../../assets/images/dark_bg_img.png');
-	width: 35%;
-	height: 100%;
-	right: 0;
-	content: "";
-	top: 0;
-	background-size: cover;
-	background-position: right;
+@media (prefers-reduced-motion: reduce) {
+  .progress-bar-animated {
+    -webkit-animation: none;
+    animation: none;
+  }
 }
-.text_align_left{
-  text-align: left;
+.rounded-lg {
+  border-radius: 0.3rem !important;
 }
-.gross_layout::before {
-	position: absolute;
-	background: rgba(10, 139, 199, 0.8);
-	width: 35%;
-	height: 100%;
-	right: 0;
-	content: "";
-	top: 0;
-	background-size: cover;
-	background-position: right;
-	z-index: 1;
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
-.gross_layout.right_gross_layout::after {
-	position: absolute;
-	background: url('../../assets/images/dark_bg_img2.png');
-	width: 35%;
-	height: 100%;
-	left: 0;
-	content: "";
-	top: 0;
-	background-size: cover;
-	background-position: right;
-}
-.service_blog_inner{
-  text-align: left;
+.progress-circle .progress {
+  width: 150px;
+  height: 150px;
+  background: none;
+  position: relative;
 }
 
-.gross_layout.right_gross_layout::before {
-	position: absolute;
-	background: rgba(10, 139, 199, 0.8);
-	width: 35%;
-	height: 100%;
-	left: 0;
-	content: "";
-	top: 0;
-	background-size: cover;
-	background-position: right;
-	z-index: 1;
+.progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
 }
 
+.progress-circle .progress > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.progress-circle .progress .progress-left {
+  left: 0;
+}
+.progress-circle .progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 6px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
 
+.progress-circle .progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  -ms-transform-origin: center left;
+  transform-origin: center left;
+  border-color: #b1b493 !important;
+}
+.first {
+}
+.progress-circle .progress > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.progress-circle .progress .progress-right {
+  right: 0;
+}
+.progress-circle .progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  transform: rotate(180deg);
+
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  -ms-transform-origin: center right;
+  transform-origin: center right;
+  border-color: #b1b493 !important;
+}
+.progress-circle .progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 6px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+.progress-circle .progress .progress-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.progress-circle .progress {
+  width: 150px;
+  height: 150px;
+  background: none;
+  position: relative;
+}
+.progress-circle .progress > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.progress-circle .progress .progress-left .progress-bar .second {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  -ms-transform-origin: center left;
+  transform-origin: center left;
+  border-color: #b1b493 !important;
 }
 </style>
